@@ -1,4 +1,5 @@
 #!/bin/bash
+sudo rm -rf /web
 sudo mkdir /web
 sudo cd /web
 sudo yum install -y gcc gcc-c++ wget expat-devel
